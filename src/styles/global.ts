@@ -24,12 +24,13 @@ const GlobalStyle = createGlobalStyle`
 
   button {
     cursor: pointer;
-    color: #A873F7;
+    background: #A873F7;
+    border: 0;
+
   }
 
   a {
     text-decoration: none;
-    color: #A873F7;
   }
 `;
 

@@ -20,9 +20,10 @@ function UsersTable() {
   return (
     <Container>
       <header>
+        <h1>Crud React</h1>
         <nav>
-          <a className="signup" href="">Sign Up</a>
-          <a className="login" href="">Login</a>
+          <a className="signup" href="/sign-up">Sign Up</a>
+          <a className="login" href="/login">Login</a>
         </nav>
       </header>
       <div>

@@ -9,12 +9,19 @@ const Container = styled.main`
 
     padding: 2rem;
 
+    h1 {
+      color: #A873F7;
+    }
+
     nav{
       display: flex;
       align-items: center;
       justify-content: space-between;
 
-      
+      a {
+        color: #A873F7;
+      }
+
       a:hover {
         filter: brightness(0.9);: 
         transition: filter 0.2s;
@@ -47,7 +54,6 @@ const Container = styled.main`
       border: 0;
       background: #242A36;
       color: #aaa;
-      /* border-radius: 0.25rem;   */
 `;
 
 export { Container }
